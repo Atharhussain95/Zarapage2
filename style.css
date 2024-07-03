@@ -959,7 +959,7 @@ footer .footer-bottom{
 
 
 #page10 {
-  background-color: #11111c;
+  background-color: #7c7c8e;
   color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1281,12 +1281,53 @@ nav .logo img{
 
 
 
+#page10 {
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 70vh;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#page10 h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+#page10 h1 {
+  font-family: cooper;
+  font-weight: 500;
+  font-size: 15px;
+  width: 60%;
+  margin-top: 40px;
+  text-align: center;
+}
+#page10 #about-us{
+  display: none;
+}
 
 
 
 
 
-
+#page10 h1::after {
+  height: 30px;
+  z-index: 9;
+  width: 100px;
+  background-image: url(https://thisisdigital.co.uk/dist/images/circle-green.svg);
+}
 
 
 
@@ -1371,6 +1412,13 @@ nav .logo img{
 .second-one h4{
   font-size: 15px;
 }
+
+
+
+
+
+
+
 
 
 
